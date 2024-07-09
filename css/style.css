@@ -46,7 +46,7 @@ body{
 .justify-center{ justify-content: center;}
 .align-center{ align-items: center;}
 
-.wrap-1{background: #133463;}
+.wrap-1{background: #133463; position: sticky; top: 0; z-index: 80;}
 .wrap-1 .portfolio h2{font-size: 25px; color: #a59898d8; padding: 10px 15px;}
 .wrap-1 .portfolio h2:hover{color: #fff;}
 .wrap-1 .d-block{display: block;}
@@ -59,16 +59,14 @@ body{
 .wrap-1 .toggle span{width: 50px; height: 5px; background: #0cebeb; display: block; margin: 10px;}
 .wrap-1 .toggle{display: none;}
 
-header{
-    left: 0;
-    right: 0;
+/* header{
     z-index: 2;
-    position: fixed;
+    position: sticky;
     top: 0;
-}
+} */
 
 
-.wrap-2 .banner{background: url(../img/002.jpg) no-repeat center/cover fixed;color: #fff; text-align: center; padding: 90px 0; position: relative; z-index: 0;} 
+.wrap-2 .banner{background: url(../img/002.webp) no-repeat center/cover fixed;color: #fff; text-align: center; padding: 90px 0; position: relative; z-index: 0;} 
 .wrap-2 .banner::before{
     content: '';
     background: rgba(27, 7, 65, 0.79);
@@ -101,7 +99,7 @@ header{
 .wrap-4 a{color: #949191; font-size: 18px;}
 .wrap-4 li{margin: 5px 0;}
 .wrap-4 a:hover{color: #fff;}
-.wrap-4 .font-awsm{height: 70px; width: 70px; border-radius: 50%;background: #374362; display: flex;justify-content: center; place-items: center;margin-right: 30px; color: #fff; font-size: 20px;}        
+.wrap-4 .font-awsm{height: 70px; width: 70px; border-radius: 50%;background: #374362; display: flex;justify-content: center; place-items: center;margin-right: 30px; color: #fff; font-size: 20px;flex-shrink: 0;}        
 .wrap-4 .btn-grd{box-shadow: rgba(255, 255, 255, 0) 0px 50px 50px -20px, rgba(255, 255, 255, 0) 0px 30px 60px -30px, rgba(255, 255, 255, 0) 0px -2px 6px 0px inset; border-radius: 20px; width: 100%; height:auto; padding: 15px; transition: 0.5s;}
 .wrap-4 .btn-grd:hover{box-shadow: rgba(255, 255, 255, 0.25) 0px 10px 90px -20px, rgba(255, 255, 255, 0.3) 0px 10px 30px -70px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset; border-radius: 20px; width: 100%; height:auto;padding: 15px; transition: 0.5s; cursor: pointer;}
  
@@ -152,19 +150,19 @@ header{
 .wrap-7 .d-none{display: none;}
 
 
-.wrap-7 .bluerex{background: url("../img/bluerex.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .bluerex{background: url("../img/bluerex.webp") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .bluerex:hover{background-position-y: bottom;  transition: all 5s ease-in;}
-.wrap-7 .iddo{background: url("../img/iddo.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .iddo{background: url("../img/iddo.webp") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .iddo:hover{background-position-y: bottom;  transition: all 5s ease-in;}
-.wrap-7 .inodino{background: url("../img/inodno.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .inodino{background: url("../img/inodno.webp") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .inodino:hover{background-position-y: bottom; transition: all 5s ease-in;}
-.wrap-7 .ave{background: url("../img/sass.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .ave{background: url("../img/sass.webp") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .ave:hover{background-position-y: bottom;  transition: all 5s ease-in;}
-.wrap-7 .bizland{background: url("../img/bootstrap.png") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
+.wrap-7 .bizland{background: url("../img/bootstrap.webp") no-repeat top/cover; width: 100%; height: 350px;transition: all 5s ease-in}
 .wrap-7 .bizland:hover{background-position-y: bottom;  transition: all 5s ease-in;}
-.wrap-7 .calculator{background: url(../img/calculator.png) no-repeat center/cover;width: 100%; height: 350px}
-.wrap-7 .stopwatch{background: url(../img/stopwatch.png) no-repeat center/cover;width: 100%; height: 350px}
-.wrap-7 .fetchapi{background: url(../img/weatherapi.png) no-repeat center/cover;width: 100%; height: 350px}
+.wrap-7 .calculator{background: url(../img/calculator.webp) no-repeat center/cover;width: 100%; height: 350px}
+.wrap-7 .stopwatch{background: url(../img/stopwatch.webp) no-repeat center/cover;width: 100%; height: 350px}
+.wrap-7 .fetchapi{background: url(../img/weatherapi.webp) no-repeat center/cover;width: 100%; height: 350px}
 
 .wrap-8{background: #0f0c29; color: #ff0072; padding: 30px 0; text-align: center;}
 .wrap-8 a{color: #ff0072;margin-top: 10px; display: inline-block;}
@@ -227,7 +225,7 @@ header{
     .col-m-11{ flex-basis:91.66%; max-width: 91.66%;}
     .col-m-12{ flex-basis:100%; max-width: 100%;}
      
-    .wrap-1 .toggle{display: block;}
+    .wrap-1 .toggle{display: block;float: right;}
     .wrap-1 .collapse{display: none; position: absolute; left: 0; right: 0; top: 50px; background: #0f0c29; padding: 15px; z-index: 10;}
     .wrap-1 .collapse ul{ flex-flow: column wrap;}
     .wrap-1 .collapse li{margin: 20px 0;}
