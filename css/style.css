@@ -83,15 +83,58 @@ body{
 .wrap-2 .cntc a:hover{background: #ff0072;color: #fff; border:  2px solid #ff0072;}
 .wrap-2 img{width: 350px; height: 350px; border-radius: 50%;}
 
-.wrap-3{background:linear-gradient(to right, #24243e, #302b63, #0f0c29) ;color: #fff;}
+.wrap-3{background:linear-gradient(to right, #24243e, #302b63, #0f0c29) ;color: #fff;padding-bottom: 15px;}
 .wrap-3 .gap-t{padding-top: 50px;}
 .wrap-3 h2{margin-bottom: 25px; color: #ff0072;}
-.wrap-3 .desig{margin-bottom: 15px; color: #25e90b;}
+.wrap-3 .desig{margin-bottom: 15px; background: linear-gradient(to right, #a21af0, #d50fc0, #ff0072);background-clip: text;color: transparent;}
 .wrap-3 .text-r{text-align: right;}
 .wrap-3 .line-height{line-height: 30px;}
 .wrap-3 .bg-1{font-size: 50px; font-weight: 700; text-align: center; display: flex; justify-content: center; place-items: center;}
 .wrap-3 h3{text-align: center; font-size: 18px;}
 .wrap-3 progress{background-color: orange;width: 100%; border-radius: 20px; margin-bottom: 30px;}
+
+.wrap-3 .skill{text-align: center;}
+.wrap-3 h3{font: 400 20px; color: #fff; margin: 15px 0;}
+.wrap-3 .progress-bar{background: #fff; width: 100%; height: 10px; border-radius: 5px; margin: 10px 0 10px 0;}
+.wrap-3 .progress-bar div{width: 0%; height: 10px; border-radius: 5px; background:linear-gradient(to left, #a21af0, #d50fc0, #ff0072);}
+.wrap-3 .progress-bar div span{float: right; width: 40px; height: 40px; border-radius: 50%; background: #ff0072; color: #fff; margin-top: -15px; margin-right: -20px;  display: grid; place-items: center; }
+.wrap-3 .html{animation: html 1s linear forwards;}
+.wrap-3 .css{animation: css 1s linear forwards;}
+.wrap-3 .boot{animation: boot 1s linear forwards;}
+.wrap-3 .js{animation: js 1s linear forwards;}
+.wrap-3 .sass{animation: sass 1s linear forwards;}
+.wrap-3 .react{animation: react 1s linear forwards;}
+
+@keyframes html {
+    100%{
+        width: 86%;
+    }
+}
+@keyframes css {
+    100%{
+        width: 76%;
+    }
+}
+@keyframes boot {
+    100%{
+        width: 78%;
+    }
+}
+@keyframes js {
+    100%{
+        width: 70%;
+    }
+}
+@keyframes sass {
+    100%{
+        width: 75%;
+    }
+}
+@keyframes react {
+    100%{
+        width: 61%;
+    }
+}
 
 .wrap-4{background-color: #15263e; padding: 50px 0; color: #949191;}
 .wrap-4 h3{font-size: 20px; line-height: 20px; margin-bottom: 20px;}
@@ -123,7 +166,7 @@ body{
     z-index: -1;
     
 }
-.wrap-6 h2{font-size: 40px; background: linear-gradient(to right, #38ef7d, #11998e);background-clip: text;color: transparent;}
+.wrap-6 h2{font-size: 40px; color: #ff0072}
 .wrap-6 .fa{color: rgb(15, 12, 41); font-size: 35px; margin: 15px 0;}
 .wrap-6 h3{ margin-bottom: 15px;}
 .wrap-6 p{line-height: 20px; margin-bottom: 15px;}
@@ -164,10 +207,10 @@ body{
 .wrap-7 .stopwatch{background: url(../img/stopwatch.webp) no-repeat center/cover;width: 100%; height: 350px}
 .wrap-7 .fetchapi{background: url(../img/weatherapi.webp) no-repeat center/cover;width: 100%; height: 350px}
 
-.wrap-8{background: #0f0c29; color: #ff0072; padding: 30px 0; text-align: center;}
-.wrap-8 a{color: #ff0072;margin-top: 10px; display: inline-block;}
+.wrap-8{background: #0f0c29; color: #fff; padding: 30px 0; text-align: center;}
+.wrap-8 a{color: #fff;margin-top: 10px; display: inline-block;}
 .wrap-8 a:hover{color: #0cebeb;}
-.wrap-8 h2{font-size: 40px; margin-bottom: 30px; background: linear-gradient(to right, #a21af0,#0fd5aa, #7700ffea);background-clip: text;color: transparent;}
+.wrap-8 h2{font-size: 40px; margin-bottom: 30px; color: #ff0072;}
 .wrap-8 h3{font-size: 20px; margin: 15px 0;}
 .wrap-8 p{font-size: 18px;}
 .wrap-8 li{margin: 10px 0;}
